@@ -3,7 +3,7 @@ import streamlit  as st
 
 model = pickle.load(open('estimasi_harga_alpukat.sav', 'rb'))
 
-st.title('Estimasi Harga Alpukat')
+st.title('Estimasi Rerata Harga Alpukat')
 
 Total_Volume = st.number_input('Masukan Jumlah Volume : ')
 Total_Bags = st.number_input('Masukan Jumlah Kantong : ')
